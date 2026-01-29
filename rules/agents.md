@@ -14,7 +14,18 @@ Located in `~/.claude/agents/`:
 | build-error-resolver | Fix build errors | When build fails |
 | e2e-runner | E2E testing | Critical user flows |
 | refactor-cleaner | Dead code cleanup | Code maintenance |
+| requirements-validator | Requirements compliance | Scope validation, cleanup planning |
 | doc-updater | Documentation | Updating docs |
+| database-reviewer | Database review | Schema design, query optimization |
+| python-reviewer | Python code review | Python projects |
+| python-linter | Python linting | Python code quality |
+| python-tester | Python testing | Pytest with TDD |
+| go-reviewer | Go code review | Go projects |
+| go-build-resolver | Go build fixes | Go compilation errors |
+| keiba-coder | Horse racing development | Keiba domain coding |
+| keiba-checker | Horse racing data validation | Data integrity checks |
+| leakage-detector | Data leakage detection | ML model validation |
+| datarobot-specialist | DataRobot AutoML | DataRobot SDK implementation |
 
 ## Immediate Agent Usage
 
@@ -23,6 +34,8 @@ No user prompt needed:
 2. Code just written/modified - Use **code-reviewer** agent
 3. Bug fix or new feature - Use **tdd-guide** agent
 4. Architectural decision - Use **architect** agent
+5. Before refactoring/cleanup - Use **requirements-validator** agent
+6. Security-sensitive code - Use **security-reviewer** agent
 
 ## Parallel Task Execution
 
